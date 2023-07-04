@@ -64,6 +64,6 @@ app.get("/",(request,response,next) => {
     })
 })
 
-app.listen(process.env.PORT,() => {  // função de callaback que executa a escrita após o comando der certo
+app.listen(process.env.PORT,() => {  // função de callaback que executa a escrita após o comando der certo..
     console.log("App is running!");
 });
